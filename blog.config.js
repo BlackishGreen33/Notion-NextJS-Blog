@@ -245,7 +245,7 @@ const BLOG = {
 
   // utterance
   COMMENT_UTTERRANCES_REPO:
-    process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || 'BlackishGreen33/Notion-NextJs-Blog', // 代码仓库名
+    process.env.NEXT_PUBLIC_COMMENT_UTTERRANCES_REPO || '', // 代码仓库名
 
   // giscus @see https://giscus.app/
   COMMENT_GISCUS_REPO: process.env.NEXT_PUBLIC_COMMENT_GISCUS_REPO || 'BlackishGreen33/Notion-NextJs-Blog', // 你的Github仓库名 e.g 'tangly1024/NotionNext'
