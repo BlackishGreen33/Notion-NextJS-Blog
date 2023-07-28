@@ -16,10 +16,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: [
-    'react',
-    'react-hooks'
-  ],
+  plugins: ['react', 'react-hooks'],
   settings: {
     react: {
       version: 'detect'
