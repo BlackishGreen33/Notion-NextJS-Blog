@@ -29,7 +29,7 @@ Here are some commands that you can use:
 
 If you want to submit your custom theme to NotionNext, copy a new folder in
 [`themes`][themes-dir] from [`example`][example]. The folder name  will be the
-theme's key. 
+theme's key.
 
 ## Adding localizations
 

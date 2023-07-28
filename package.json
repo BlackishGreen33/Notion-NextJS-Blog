@@ -1,16 +1,16 @@
 {
-  "name": "notion-next",
+  "name": "notion-nextjs-blog",
   "version": "4.0.5",
-  "homepage": "https://github.com/tangly1024/NotionNext.git",
+  "homepage": "https://github.com/BlackishGreen33/Notion-NextJs-Blog.git",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tangly1024/NotionNext.git"
+    "url": "https://github.com/BlackishGreen33/Notion-NextJs-Blog.git"
   },
   "author": {
-    "name": "tangly",
-    "email": "mail@tangly1024.com",
-    "url": "http://tangly1024.com"
+    "name": "BlackishGreen33",
+    "email": "s5460703@gmail.com",
+    "url": "https://blackishgreen.vercel.app/"
   },
   "scripts": {
     "dev": "next dev",
@@ -75,7 +75,7 @@
     "axios": ">=0.21.1"
   },
   "bugs": {
-    "url": "https://github.com/tangly/NotionNext/issues",
-    "email": "tlyong1992@hotmail.com"
+    "url": "https://github.com/BlackishGreen33/Notion-NextJs-Blog/issues",
+    "email": "s5460703@gmail.com"
   }
 }
