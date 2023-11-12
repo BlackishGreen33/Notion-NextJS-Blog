@@ -8,7 +8,7 @@
 
 ## 🔎 預覽效果
 
-在線演示：[https://blackishgreen.vercel.app/](https://blackishgreen.vercel.app/) 
+在線演示：[https://blackishgreen.link](https://blackishgreen.link) 
 
 ## ✒️ 引用技術
 
