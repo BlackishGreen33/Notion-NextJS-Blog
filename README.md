@@ -34,7 +34,7 @@
 
 ### 📝 授權
 
-倉庫內程式碼以 MIT 許可授權
+倉庫內程式碼以 MIT 許可授權  
 在頁面文章皆受到 CC BY 4.0 之保護。只有在以下情況使用才符合要求。
 
 1. 在文章 <head> 標籤內標明原始文章來源： `<link rel="canonical" href="https://blackishgreen.link" />`
