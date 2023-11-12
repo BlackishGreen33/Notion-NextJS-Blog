@@ -1,4 +1,4 @@
-# Notion NextJs Blog
+# Notion NextJS Blog
 
 [中文文檔](./README.md) | README in English
 
