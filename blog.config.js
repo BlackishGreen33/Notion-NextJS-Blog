@@ -3,7 +3,7 @@ const BLOG = {
     process.env.NOTION_PAGE_ID || '3261d9a39ae74df28dbc0b42673d19b5',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || true, // 偽靜態路徑，開啟後所有文章URL都以 .html 結尾。
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新內容緩存間隔 單位(秒)；即每個頁面有5秒的純靜態期、此期間無論多少次訪問都不會抓取notion數據；調大該值有助於節省Vercel資源、同時提升訪問速率，但也會使文章更新有延遲。
-  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium','example','matery','gitbook','simple']
+  THEME: process.env.NEXT_PUBLIC_THEME || 'matery', // 主题， 支持 ['next','hexo',"fukasawa','medium','example','matery','gitbook','simple']
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 切換主題按鈕
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-TW',
   SINCE: 2016,
@@ -21,8 +21,8 @@ const BLOG = {
   BIO:
     process.env.NEXT_PUBLIC_BIO ||
     '所謂人類，不過是身披錦衣的猿猴；所謂神明，不過是善於偽裝的人類。', // 作者簡介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://blackishgreen.vercel.app/', // 網站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 網站關鍵詞
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.blackishgreen.link/', // 網站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, 墨綠B.G.', // 網站關鍵詞
 
   // 社交連結
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 's5460703@gmail.com', // 電子郵件
@@ -190,7 +190,7 @@ const BLOG = {
   // Chatbase
   CHATBASE_ID: process.env.NEXT_PUBLIC_CHATBASE_ID || 'f1fTTAG4xOZcIKgZIGPxd', // 是否顯示chatbase機器人 https://www.chatbase.co/
   // 懸浮掛件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否顯示寵物掛件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否顯示寵物掛件
   WIDGET_PET_LINK:
     process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
     'https://raw.githubusercontent.com/imuncle/live2d/master/model/touma/touma.model.json', // 掛件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
